@@ -1,5 +1,5 @@
 /*
-Copyright © 2025 NAME HERE <EMAIL ADDRESS>
+Copyright © 2025 NAME HERE <iamj.nayem@gmail.com>
 
 */
 package cmd
@@ -15,13 +15,9 @@ import (
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
 	Use:   "gorenamer",
-	Short: "A brief description of your application",
-	Long: `A longer description that spans multiple lines and likely contains
-examples and usage of using your application. For example:
-
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+	Short: "A CLI utility that can be used to rename files",
+	Long: `A CLI tool designed to simplify the process of renaming files in bulk. 
+It provides a variety of options to customize file renaming, making it efficient and user-friendly.`,
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
 	// Run: func(cmd *cobra.Command, args []string) { },
